@@ -1,0 +1,49 @@
+/* DirecteurTab.css */
+
+.directeur-tab {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: 50% 50%; */
+  /* align-items: center; */
+  padding: 20px;
+  /* align-items: center; */
+  background: linear-gradient(135deg, #d35252, #b6599a);
+}
+
+.directeur-info {
+  text-align: center;
+
+  & h2{
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #fff;
+  }
+}
+
+.directeur-image {
+  width: 90%; /* Ajustez la taille de l'image selon vos besoins */
+  height: 60vh;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  border: 6px solid #fff;
+}
+
+.directeur-image2 {
+  width: 20vw; /* Ajustez la taille de l'image selon vos besoins */
+  height: 43vh;
+  border-radius: 50%;
+  margin-top: -100px;
+  border: 6px solid #fff
+}
+
+.mot-du-directeur {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+
+  & h6{
+    font-weight: bold;
+  }
+}
+
+/* Ajoutez d'autres styles selon vos besoins */

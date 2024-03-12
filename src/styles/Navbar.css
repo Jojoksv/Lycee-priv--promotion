@@ -1,0 +1,237 @@
+
+body{
+    font-family:'raleway', sans-serif;
+}
+/* 
+.lmj-logo {
+	width: 90px;
+}
+
+.nom-logo {
+	width: 75%;
+}
+
+.menu{
+    font-family: 'Open Sans';
+    position: relative;
+    margin: 0 10px;
+    text-decoration: 0;
+    color: #000000;
+    transition: 0.5s;
+}
+.menu :before {
+    position:absolute;
+    top: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #93d6d0;
+    transition: 0.5px;
+}
+
+.menu:hover{
+    border-top: 5px solid rgb(68, 138, 204);
+    background-color: rgba(64, 161, 200, 0.15);  
+} */
+
+.menu{
+    font-family: 'raleway', sans-serif;
+    position: relative;
+    text-decoration: 0;
+    color: #fff;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.menu :before {
+    position:absolute;
+    top: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #93d6d0;
+    transition: 0.5px;
+}
+
+.menu:hover{
+    color: rgb(0, 30, 87);
+}
+
+.lmj-banner{
+    position: absolute;
+    /* background-color: #979797; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.size{
+    size: 1000;
+}
+
+.lmj-banner .logo{
+    padding-left: 20px;
+    font-family: 'cinzel';
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.lmj-banner .nav-links ul{
+    padding-right: 60px;
+    padding-top: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.lmj-banner .nav-links ul li{
+    font-size: 0.75em;
+    margin: 0 15px;
+}
+
+.lmj-banner .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 25px;
+    z-index: 25;
+}
+
+@media screen and (max-width: 700px){
+    .lmj-banner{
+        padding: 0;
+    }
+
+    .lmj-banner .menu-hamburger{
+        display: block;
+    }
+
+    .nav-links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.208);
+        backdrop-filter: blur(7px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        font-size: 2em;
+    }
+
+    .nav-links.mobile-menu{
+        margin-left: 0;
+        position: absolute;
+        z-index: 20;
+    }
+
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .lmj-banner .nav-links ul li{
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+
+    .lmj-banner .logo{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and (max-width: 350px){
+    .lmj-banner .fold{
+        font-size: 1em;
+    }
+    .lmj-banner .menu-hamburger{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 1066px){
+    .lmj-banner .logo{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 1.8em;
+    }
+
+    .lmj-banner .nav-links ul li{
+        font-size: 0.7em;
+        margin: 0 7px;
+    }
+
+    .lmj-banner .nav-links ul{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1076px){
+    .lmj-banner .logo{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 1.8em;
+    }
+
+    .lmj-banner .nav-links ul li{
+        font-size: 0.7em;
+        margin: 0 7px;
+    }
+
+    .lmj-banner .nav-links ul{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 802px){
+    .lmj-banner .logo{
+        font-size: 1.5em;
+    }
+
+    .lmj-banner .nav-links ul li{
+        font-size: 0.65em;
+        margin: 0 7px;
+    }
+
+    .lmj-banner .nav-links ul{
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .lmj-banner .logo{
+        font-size: 1.3em;
+    }
+
+    .lmj-banner .nav-links ul li{
+        font-size: 0.65em;
+        margin: 0 7px;
+    }
+
+    .lmj-banner .nav-links ul{
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,98 @@
+/* Style de base */
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.revenir{
+    align-items: center;
+    position: absolute;
+    background-color: #fff;
+    height: 40px;
+    z-index: 5;
+    padding-top: 5px;
+}
+
+.GuideClass {
+    background-color: #fff;
+    font-family: m;
+    margin: 0;
+    padding: 0;
+}
+
+.GuideClass h1 {
+    background-color: #007BFF;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.GuideClass .mainContent{
+    padding-top: 100px;
+    display: flex;
+}
+
+.GuideClass nav {
+    position: fixed;
+    width: 360px;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    max-height: 510px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.GuideClass nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.GuideClass .mainContent nav ul li {
+    background-color: #3f437e;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+
+.GuideClass nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 20px;
+}
+/* Style de la grille pour les sections */
+
+.scrollpart{
+    max-height: 510px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.GuideClass main {
+    margin-left: 350px; /* Pour laisser de l'espace à la sidebar */
+    padding: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.GuideClass section {
+    background-color: #57909e;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #000000;
+    font-family: m;
+}
+
+/* Style de pied de page (inchangé) */
+.GuideClass footer {
+    margin-top: 20px;
+    margin-left: 370px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}

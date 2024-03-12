@@ -1,0 +1,66 @@
+
+
+.resau{
+    height: 350px;
+    background-image: url("../assets/biblio2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.OnReseau{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(230, 216, 216, 0);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30PX;
+}
+
+.reseaux{
+    width: 100%;
+    text-align: center;
+    font-family: 'monotype';
+    color: rgb(255, 255, 255);
+}
+
+.reseaux h1{
+    font-weight: bold;
+    flex-wrap: nowrap;
+}
+
+.svg{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,8rem);
+    justify-content: space-around;
+    width: 100%;
+}
+
+.divS{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 500px){
+    .reseaux h1{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .reseaux h1{
+        font-size: 1.2em;
+    }
+}
+
+

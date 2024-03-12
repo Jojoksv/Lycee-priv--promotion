@@ -1,0 +1,125 @@
+
+.head{
+    justify-content: center;
+    align-items: center;
+    font-family: m;
+    font-size: 20px;
+    color: rgb(199, 0, 0);
+    display: flex;
+    padding: 20px 0px 20px 0px;
+}
+
+.head span{
+    padding: 0px 20px 0px 20px;
+}
+
+.ligne{
+    width: 100%;
+    height: 1px;
+    background-color: #616161;
+}
+
+.mainDiv{
+    background-color: #132348;
+    display: grid;
+    grid-template-columns: auto auto;
+    box-sizing: border-box;
+    padding: 10px;
+    height: auto;
+}
+
+.secondDiv{
+    height: 100%;
+    padding: 40px 0px 0px 40px;
+}
+
+.thirdDiv{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    max-height: 100%;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.third1Div{
+    padding-left: 10px;
+}
+
+.third1Div a{
+    text-decoration: none;
+    color: #132348;
+}
+.third1Div p{
+    color: #132348;
+}
+
+.firstA, .para1{
+    font-family: m;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.para1{
+    margin-top: -10px;
+}
+
+.para2{
+    padding-top: 15px;
+    color: #828282;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.theA{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third2Div{
+    height: 100%;
+    font-weight: bold;
+    font-family: m;
+    padding: 20px 20px 0px 20px;
+}
+
+.third2Div a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #132348;
+}
+
+.third2Div p{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #828282;
+}
+
+.the2A{
+    font-weight: bold;
+}
+
+.image{
+    width: 100%;
+    /* height: 100%; */
+    /* overflow: auto; */
+}
+
+@media screen and (max-width: 760px){
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondDiv{
+        padding: 5px 0px 0px 0;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .secondDiv{
+        padding: 5px 0 0 0;
+    }
+}
+
+

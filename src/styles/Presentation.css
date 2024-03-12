@@ -1,0 +1,104 @@
+
+
+.AllOne{
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+.ForAll{
+    margin-top: 30px;
+    padding: 100px 100px 100px 20px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,20rem);
+    gap: 60px;
+}
+
+.first{
+    padding: 0px 15px 0px 15px;
+    width: 380px;
+    height: 140px;
+}
+
+.second{
+    width: 100%;
+    border-bottom: 5px solid orangered;
+    overflow: hidden;
+}
+
+.third{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+}
+
+.fourth{
+    padding-top: 10px;
+    position: absolute;
+    margin-top: -50px;
+    height: 50px;
+    width: 210px;
+    background-color: #ffffff;
+    align-items: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.fourth a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: #21336f;
+}
+
+.sixth{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -50px;
+    width: 60px;
+    height: 50px;
+    background-color: #21336f;
+}
+
+.second:hover .sixth{
+    background-color: orangered;
+    transition: 0.5s ease;
+}
+
+.second:hover .third{
+    transform: scale(1.2);
+}
+
+.essenciel{
+    font-family: m;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* margin-top: -150px; */
+    /* padding-left:500px; */
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.essenciel span{
+    /* padding-left: 100px; */
+    font-size: 0.7em;
+    color: #8f0c0c;
+}
+
+.essenciel h1{
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.division{
+    width: 100%;
+    height: 20px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}

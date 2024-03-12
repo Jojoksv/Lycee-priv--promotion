@@ -1,0 +1,99 @@
+
+.reevenir{
+    position: fixed;
+    right: 10px;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+}
+
+.thecontainer {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+.EnteteContente{
+    align-items: center;
+    width: 100%;
+}
+
+.thecontainer h1 {
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+}
+
+.thecontainer h2 {
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    color: #000000;
+}
+
+.thecontainer .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.thecontainer .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.thecontainer .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thecontainer .profile-name {
+    font-size: 35px;
+    color: blue;
+    font-weight: bold;
+}
+
+.thecontainer .profile-contact {
+    color: #000000;
+    font-size: 16px;
+}
+
+.thecontainer .methods {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.methods {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.methods li {
+    background-color: #008371; /* Couleur rosée */
+    border: 1px solid #000000; /* Bordure */
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Effet de profondeur */
+    width: calc(25% - 20px); /* 4 éléments par ligne */
+    float: left;
+    clear: none;
+    border-radius: 20px;
+    height: 200px;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* Effet de profondeur au survol */
+.methods li:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+

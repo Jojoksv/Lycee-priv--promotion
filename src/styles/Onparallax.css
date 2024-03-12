@@ -1,0 +1,61 @@
+
+.all{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.Onparallax{
+    font-family: 'bitter', 'times', serif;
+    color: black;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+
+.img2{
+    width: 400px;
+    height: 350px;
+}
+
+.address{
+    width: 50%;
+    height: 300px;
+}
+iframe{
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.parallax{
+    height: auto;
+    background-image: url("../assets/promotion3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+@media screen and (max-width: 860px){
+    .img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img2{
+        width: 350px;
+        height: 300px;
+    }
+    
+    iframe{
+        width: 350px;
+        height: 300px;
+    }
+}

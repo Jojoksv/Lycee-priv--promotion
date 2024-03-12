@@ -1,0 +1,85 @@
+
+
+.justifie-Content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d9494;
+}
+
+.justifie-Content h1{
+    color: #ffffff;
+}
+
+.ressources{
+    padding: 10px;
+    background-color: #0073e6;
+}
+
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style de la liste des ressources */
+.resource-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.resource-list li {
+    background-color: #e2e2e2;
+    border: 4px solid #ff0052;
+    flex: 0 1 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 16px 14px 20px #000000;
+    border-radius: 10px;
+    /* display: flex; */
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .resource-list li:before {
+    content: "";
+    background-image: conic-gradient(#ff0052 20deg, transparent 120deg);
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+} */
+
+.resource-list h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.resource-list p {
+    color: #333;
+}
+
+.resource-list a {
+    text-decoration: none;
+    color: #ff0052;
+    transition: color 0.3s;
+}
+
+.resource-list a:hover {
+    color: #004a80;
+}
