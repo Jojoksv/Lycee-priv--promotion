@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ceec3a23.css",
+    "main.js": "/static/js/main.056b030b.js",
+    "static/media/promotion3.jpg": "/static/media/promotion3.310449d6be64ffda6c40.jpg",
+    "static/media/orienter.jpg": "/static/media/orienter.ce8bf93bbb89eabbce00.jpg",
+    "static/media/promotion5.jpg": "/static/media/promotion5.83eaae9ee2be038acbd8.jpg",
+    "static/media/promotion4.jpg": "/static/media/promotion4.3681b77a12e370a0ca26.jpg",
+    "static/media/biblio2.jpg": "/static/media/biblio2.56e8e7eb181d02bf4b81.jpg",
+    "static/media/racc8.jpg": "/static/media/racc8.38703332a92cece94ae9.jpg",
+    "static/media/racc2.jpg": "/static/media/racc2.9f7be86398ed69fbeb8f.jpg",
+    "static/media/racc9.jpg": "/static/media/racc9.300c98bd7ae7bc9e8e51.jpg",
+    "static/media/racc6.jpg": "/static/media/racc6.eb6fde662b01b8655e30.jpg",
+    "static/media/racc5.jpg": "/static/media/racc5.837069a31b5bc66296e8.jpg",
+    "static/media/racc3.jpg": "/static/media/racc3.f9786b4a81880ece044b.jpg",
+    "static/media/actualite.jpg": "/static/media/actualite.0a9de62c29764f51dff9.jpg",
+    "static/media/homme.png": "/static/media/homme.5faf09a7795d28bf5a2b.png",
+    "static/media/file.jpg": "/static/media/file.c711b1b6d90b191974d8.jpg",
+    "index.html": "/index.html",
+    "main.ceec3a23.css.map": "/static/css/main.ceec3a23.css.map",
+    "main.056b030b.js.map": "/static/js/main.056b030b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceec3a23.css",
+    "static/js/main.056b030b.js"
+  ]
+}
