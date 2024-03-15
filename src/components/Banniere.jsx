@@ -7,8 +7,8 @@ function Banniere(){
     return(
         <div className="principal">
             {BanniereList.map((list) =>
-                <div className={list.title}>
-                    <h1>{list.title.toUpperCase()}</h1>
+                <div className={list.title} key={list.id}>
+                    <h1>{list.title}</h1>
                     <p>{list.content}</p>
                 </div>
             )}

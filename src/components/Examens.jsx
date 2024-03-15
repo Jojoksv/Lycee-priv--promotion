@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Examens.css'; // Assurez-vous de créer ce fichier CSS
+import '../styles/Examens.css';
 
 const Examens = () => {
 
@@ -9,8 +9,8 @@ const Examens = () => {
   return (
     <div className="directeur-tab">
       <div className="directeur-info">
-        <img src={carou1} alt="Image du Directeur" className="directeur-image" />
-        <img src={carou2} alt="Image du Directeur" className="directeur-image2" />
+        <img src={carou1} alt="Directeur lycee prive promotion" className="directeur1" />
+        <img src={carou2} alt="Directeur lycee prive promotion" className="directeur2" />
         <h2>KOSSOUVI KOFFI</h2>
       </div>
       <div className="mot-du-directeur">

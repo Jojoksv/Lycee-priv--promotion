@@ -1,12 +1,7 @@
 
 
 export const NavBarList = [
-    // 'accueil',
-    // "l'etablissement",
-    // 'scolarité',
-    // 'orientation',
-    // 'examens',
-    // 'pedagogie'
+    
     {
         name:'Accueil',
         link: '/'

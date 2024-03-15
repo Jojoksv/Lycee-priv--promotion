@@ -11,8 +11,6 @@ const StyledLink = styled(Link)`
     font-size: 18px;
 `
 
-
-
 function Etablissement(){
     return(
 <div className='body'>

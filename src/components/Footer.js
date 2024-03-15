@@ -2,6 +2,7 @@
 import '../styles/Footer.css'
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -42,11 +43,11 @@ function Footer(){
             <div className="col">
               <h3>Links <div className='underLine'><span></span></div> </h3>
               <ul>
-                <li><a href=''>Home</a></li>
-                <li><a href=''>Services</a></li>
-                <li><a href=''>About Us</a></li>
-                <li><a href=''>Features</a></li>
-                <li><a href=''>Contacts</a></li>
+                <li><Link to='#'>Home</Link></li>
+                <li><Link to='#'>Services</Link></li>
+                <li><Link to='#'>About Us</Link></li>
+                <li><Link to='#'>Features</Link></li>
+                <li><Link to='#'>Contacts</Link></li>
               </ul>
             </div>
             <div className="col">

@@ -17,6 +17,10 @@
     font-family: 'LATO';
     background-color: #002654;
     backdrop-filter: blur(0px);
+
+    h1{
+        text-transform: uppercase;
+    }
 }
 
 .presentation{
@@ -29,6 +33,10 @@
     font-family: 'LATO';
     background-color: #34495E;
     backdrop-filter: blur(0px);
+
+    h1{
+        text-transform: uppercase;
+    }
 }
 .contact{
     display: flex;
@@ -40,6 +48,10 @@
     font-family: 'LATO';
     background-color: #CE1126;
     backdrop-filter: blur(0px);
+
+    h1{
+        text-transform: uppercase;
+    }
 }
 
 @media screen and (max-width: 760px){

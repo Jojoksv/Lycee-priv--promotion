@@ -1,5 +1,6 @@
 
 import '../styles/Agenda.css'
+import { Link } from 'react-router-dom'
 import { AgendaList } from '../datas/AgendaList'
 import { ActualitesList } from '../datas/ActualiteList'
 
@@ -14,10 +15,12 @@ function Agenda(){
                         <div className='ligne'></div>
                     </div>
                 {AgendaList.map((list) =>
-                    <div className='thirdDiv'>
+                    <div className='thirdDiv' key={list.id}>
                         <div className='third1Div'>
-                            <a href='' className='theA'><h3 href='' className='firstA'>{list.date} : {list.titre}</h3>
-                            <p className='para1'>›</p></a>
+                            <Link to='#' className='theA'>
+                                <h3 href='' className='firstA'>{list.date} : {list.titre}</h3>
+                                <p className='para1'>›</p>
+                            </Link>
                         </div>
                         {list.detail ?
                         <p className='para2'>{list.detail}<br/>{list.horaire}</p> : null
@@ -33,15 +36,15 @@ function Agenda(){
                         <span>ACTUALITES</span>
                         <div className='ligne'></div>
                     </div>
-                {ActualitesList.map((list) =>
-                    <div className='thirdDiv'>
+                {ActualitesList.map((item) =>
+                    <div className='thirdDiv' key={item.id}>
                         <div className='third2Div'>
-                            <a href=''>
-                                <h3 href='' className='the2A'>{list.titre} : {list.date}
+                            <Link to='#'>
+                                <h3 href='' className='the2A'>{item.titre} : {item.date}
                                 </h3>
-                            </a>
-                            <p>{list.detail}</p>
-                            <img className='image' src={list.url} alt='' />
+                            </Link>
+                            <p>{item.detail}</p>
+                            <img className='image' src={item.url} alt='' />
                         </div>
                     </div>
                 )}

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './components/App';
 import Guide from './components/Guide';
 import Orientation from './components/Orient';
-import Error from './components/Error';
+import ErrorPage from './components/Error';
 import Regle from './components/Regle';
 import Ressources from './components/Ressources';
 import Calendrier from './components/Calendrier';
@@ -23,19 +23,20 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
-        {AnnonceList.map((list) => {
-          const ComponentName = mesVariable[list.linkrel];
-          return(
-          <Route key={list.linkrel} path={`/${list.linkrel}`} element={<ComponentName />} />);
-        })}
+        <Route path="/" exact element={<App />} />
+            {AnnonceList.map((list) => {
+        const ComponentName = mesVariable[list.linkrel];
+        return (
+            <Route key={list.linkrel} path={`/${list.linkrel}`} element={<ComponentName />} />
+        );
+    })}
 
         {NavBarList.map((list) => {
           const ComponentName = mesVariable[list.link];
           return(
           <Route key={list.link} path={`/${list.link}`} element={<ComponentName />} />);
         })}
-        <Route path="*" element={<Error />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
   </React.StrictMode>
