@@ -1,6 +1,7 @@
 
 
 import '../styles/Presentation.css'
+import { Link } from 'react-router-dom'
 // import Footer from './Footer'
 
 
@@ -17,7 +18,7 @@ function Presentation(){
                     <img src={require('../assets/racc3.jpg')} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
-                            <a href=''>Présentation</a>
+                            <Link to=''>Présentation</Link>
                         </h5>
                         <div className="sixth"></div>
                     </div>
@@ -29,7 +30,7 @@ function Presentation(){
                     <img src={require('../assets/racc5.jpg')} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
-                            <a href=''>Résultats</a>
+                            <Link to=''>Résultats</Link>
                         </h5>
                         <div className="sixth"></div>
                     </div>
@@ -41,7 +42,7 @@ function Presentation(){
                     <img src={require('../assets/racc6.jpg')} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
-                            <a href=''>Inscription</a>
+                            <Link to=''>Inscription</Link>
                         </h5>
                         <div className="sixth"></div>
                     </div>
@@ -53,7 +54,7 @@ function Presentation(){
                     <img src={require('../assets/racc2.jpg')} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
-                            <a href=''>Notre Blog</a>
+                            <Link to=''>Notre Blog</Link>
                         </h5>
                         <div className="sixth"></div>
                     </div>
@@ -65,7 +66,7 @@ function Presentation(){
                     <img src={require('../assets/racc8.jpg')} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
-                            <a href=''>Ecole Directe</a>
+                            <Link to=''>Ecole Directe</Link>
                         </h5>
                         <div className="sixth"></div>
                     </div>
@@ -77,7 +78,7 @@ function Presentation(){
                     <img src={require('../assets/racc9.jpg')} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
-                            <a href=''>Portail du CDI</a>
+                            <Link to=''>Portail du CDI</Link>
                         </h5>
                         <div className="sixth"></div>
                     </div>

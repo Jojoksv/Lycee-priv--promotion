@@ -59,15 +59,15 @@ function Header() {
                     <div className='divP1'>
                         <h3>📞NOUS CONTACTER</h3>
                         <div className='divP2'>
-                            <a href='tel:+22676626404'>Tél: 76 62 64 04</a><br />
-                            <a href='mailto:kossouvikoffi@gmail.com'>kossouvikoffi@gmail.com</a>
+                            <Link to='tel:+22676626404'>Tél: 76 62 64 04</Link><br />
+                            <Link to='mailto:kossouvikoffi@gmail.com'>kossouvikoffi@gmail.com</Link>
                         </div>
                     </div>
                     <div className='divP1'>
                         <h3>📌NOUS TROUVER</h3>
                         <div className='divP2'>
-                            <a href='#plan'>BOBO-Dsso, Sarfalao</a><br />
-                            <a href='mailto:kossouvikoffi@gmail.com'>LycéePromotion@gmail.com</a>
+                            <Link to='#plan'>BOBO-Dsso, Sarfalao</Link><br />
+                            <Link to='mailto:kossouvikoffi@gmail.com'>LycéePromotion@gmail.com</Link>
                         </div>
                     </div>
                 </div>

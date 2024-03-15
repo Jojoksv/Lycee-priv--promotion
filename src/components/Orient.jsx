@@ -27,8 +27,8 @@ function Orientation(){
             <div class="profile-info">
                 <div class="profile-name">KOSSOUVI KOFFI</div>
                 <div class="profile-contact">
-                    <p>Numéro de téléphone : <a href='sms:76626404?body=thank you'>+226 76 62 64 04</a></p>
-                    <p>Email : <a href="mailto:kossouvikoffi@gmail.com">kossouvikoffi@gmail.com</a></p>
+                    <p>Numéro de téléphone : <Link href='sms:76626404?body=thank you'>+226 76 62 64 04</Link></p>
+                    <p>Email : <Link href="mailto:kossouvikoffi@gmail.com">kossouvikoffi@gmail.com</Link></p>
                 </div>
             </div>
         </div>

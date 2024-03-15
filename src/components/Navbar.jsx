@@ -5,15 +5,16 @@ import menu from '../assets/menu-btn.png'
 import handlelick from './BtnRegul'
 import { NavBarList } from '../datas/NavbarList'
 import '../styles/Navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navbar(){
     return(
         <nav className='lmj-banner'>
-            <a href='/' className='logo fold'>Lycée Privé Promotion</a>
+            <Link to='/' className='logo fold'>Lycée Privé Promotion</Link>
             <div className='nav-links'>
                 <ul>
                     {NavBarList.map((list, index) => (
-                        <li key={`${list}-${index}`} ><a className='menu' href={`${list.link}`} >{list.name.toUpperCase()}</a></li>
+                        <li key={`${list}-${index}`} ><Link className='menu' to={`${list.link}`} >{list.name.toUpperCase()}</Link></li>
                     ))}
                 </ul>
             </div>

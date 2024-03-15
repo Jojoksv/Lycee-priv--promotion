@@ -21,10 +21,10 @@ function Etablissement(){
     
     <nav>
         <ul>
-            <li><a href="#sixieme">6ème à 3ème</a></li>
-            <li><a href="#seconde">Seconde</a></li>
-            <li><a href="#premiere">Première</a></li>
-            <li><a href="#terminale">Terminale</a></li>
+            <li><Link to="#sixieme">6ème à 3ème</Link></li>
+            <li><Link to="#seconde">Seconde</Link></li>
+            <li><Link to="#premiere">Première</Link></li>
+            <li><Link to="#terminale">Terminale</Link></li>
         </ul>
     </nav>
     
@@ -77,7 +77,7 @@ function Etablissement(){
     </section>
     
     <footer>
-        <p>Contactez-nous : <a href="mailto:koffikossouvi@gmail.com">[promotion@gmail.com]</a> | <a href="trel:+22676626404">[76626404]</a></p>
+        <p>Contactez-nous : <Link to="mailto:koffikossouvi@gmail.com">[promotion@gmail.com]</Link> | <Link to="trel:+22676626404">[76626404]</Link></p>
     </footer>
 </div>
     )

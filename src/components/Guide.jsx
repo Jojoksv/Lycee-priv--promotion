@@ -21,26 +21,26 @@ function Guide(){
             <div className='mainContent'>
                 <nav>
                     <ul>
-                        <li><a href="#section1">Section 1 - Méthode de l'étude</a></li>
-                        <li><a href="#section2">Section 2 - Préparation aux examens</a></li>
-                        <li><a href="#section3">Section 3 - Gestion du temps</a></li>
-                        <li><a href="#section4">Section 4 - Prise de notes efficace</a></li>
-                        <li><a href="#section5">Section 5 - Travailler en groupe</a></li>
-                        <li><a href="#section6">Section 6 - Utilisation des ressources en ligne</a></li>
-                        <li><a href="#section7">Section 7 - Équilibrer études et loisirs</a></li>
-                        <li><a href="#section8">Section 8 - Résolution de problèmes</a></li>
-                        <li><a href="#section9">Section 9 - Préparation mentale</a></li>
-                        <li><a href="#section10">Section 10 - Conseils finaux</a></li>
-                        <li><a href="#section11">Section 11 - Techniques de mémorisation</a></li>
-                        <li><a href="#section12">Section 12 - Utilisation des bibliothèques</a></li>
-                        <li><a href="#section13">Section 13 - Écriture de rapports et de devoirs</a></li>
-                        <li><a href="#section14">Section 14 - Établissement d'objectifs</a></li>
-                        <li><a href="#section15">Section 15 - Préparation aux présentations</a></li>
-                        <li><a href="#section16">Section 16 - Apprentissage en ligne</a></li>
-                        <li><a href="#section17">Section 17 - La résolution de conflits</a></li>
-                        <li><a href="#section18">Section 18 - L'organisation des notes</a></li>
-                        <li><a href="#section19">Section 19 - La gestion du stress</a></li>
-                        <li><a href="#section20">Section 20 - L'orientation académique</a></li>
+                        <li><Link to="#section1">Section 1 - Méthode de l'étude</Link></li>
+                        <li><Link to="#section2">Section 2 - Préparation aux examens</Link></li>
+                        <li><Link to="#section3">Section 3 - Gestion du temps</Link></li>
+                        <li><Link to="#section4">Section 4 - Prise de notes efficace</Link></li>
+                        <li><Link to="#section5">Section 5 - Travailler en groupe</Link></li>
+                        <li><Link to="#section6">Section 6 - Utilisation des ressources en ligne</Link></li>
+                        <li><Link to="#section7">Section 7 - Équilibrer études et loisirs</Link></li>
+                        <li><Link to="#section8">Section 8 - Résolution de problèmes</Link></li>
+                        <li><Link to="#section9">Section 9 - Préparation mentale</Link></li>
+                        <li><Link to="#section10">Section 10 - Conseils finaux</Link></li>
+                        <li><Link to="#section11">Section 11 - Techniques de mémorisation</Link></li>
+                        <li><Link to="#section12">Section 12 - Utilisation des bibliothèques</Link></li>
+                        <li><Link to="#section13">Section 13 - Écriture de rapports et de devoirs</Link></li>
+                        <li><Link to="#section14">Section 14 - Établissement d'objectifs</Link></li>
+                        <li><Link to="#section15">Section 15 - Préparation aux présentations</Link></li>
+                        <li><Link to="#section16">Section 16 - Apprentissage en ligne</Link></li>
+                        <li><Link to="#section17">Section 17 - La résolution de conflits</Link></li>
+                        <li><Link to="#section18">Section 18 - L'organisation des notes</Link></li>
+                        <li><Link to="#section19">Section 19 - La gestion du stress</Link></li>
+                        <li><Link to="#section20">Section 20 - L'orientation académique</Link></li>
                     </ul>
                 </nav>
 

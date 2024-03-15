@@ -1,6 +1,7 @@
 
 import '../styles/Onparallax.css'
 import orient from '../assets/orienter.jpg'
+import { Link } from 'react-router-dom'
 
 
 function FocusOn(){
@@ -12,9 +13,9 @@ function FocusOn(){
                 <h1>Focus Sur...</h1>
             </div>
             <div className='img'>
-                <a className='menu' href="/Etablissement" >
+                <Link to="/Etablissement" className='menu'>
                     <img src={orient} alt='' className='img2'/>
-                </a>
+                </Link>
                 <div className="adress" id='plan'>
                 <iframe
                     title="Carte du Lycée Promotion II"
