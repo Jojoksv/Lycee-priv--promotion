@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @fortawesome/free-brands-svg-icons
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @fortawesome/free-solid-svg-icons
 
 PATH: 
   C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\src\flutter\flutter_windows_3.13.8-stable\flutter\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Local\Yarn\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\GitHubDesktop\bin
@@ -31,6 +31,7 @@ npm manifest:
     },
     "dependencies": {
       "@fortawesome/fontawesome-svg-core": "^6.5.1",
+      "@fortawesome/free-brands-svg-icons": "^6.5.1",
       "@fortawesome/react-fontawesome": "^0.2.0",
       "bootstrap": "^5.3.3",
       "react": "^18.2.0",
@@ -442,6 +443,13 @@ Lockfile:
     version "6.5.1"
     resolved "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.5.1.tgz#9d56d46bddad78a7ebb2043a97957039fcebcf0a"
     integrity sha512-MfRCYlQPXoLlpem+egxjfkEuP9UQswTrlCOsknus/NcMoblTH2g0jPrapbcIb04KGA7E2GZxbAccGZfWoYgsrQ==
+    dependencies:
+      "@fortawesome/fontawesome-common-types" "6.5.1"
+  
+  "@fortawesome/free-brands-svg-icons@^6.5.1":
+    version "6.5.1"
+    resolved "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.5.1.tgz#e948cc02404277cb8ad40fe3573ca75f2830e876"
+    integrity sha512-093l7DAkx0aEtBq66Sf19MgoZewv1zeY9/4C7vSKPO4qMwEsW/2VYTUTpBtLwfb9T2R73tXaRDPmE4UqLCYHfg==
     dependencies:
       "@fortawesome/fontawesome-common-types" "6.5.1"
   
