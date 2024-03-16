@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../styles/Orienter.css';
+import biblio2 from '../assets/biblio2.jpg'
 
 function Orienter() {
   const [activeTab, setActiveTab] = useState('gallery');
@@ -9,8 +10,8 @@ function Orienter() {
   };
 
   const galleryImages = [
-    { id: 1, src: require('../assets/biblio2.jpg'), alt: 'Description de l\'image 1', description: 'Description de l\'image 1' },
-    { id: 2, src: require('../assets/biblio2.jpg'), alt: 'Description de l\'image 2', description: 'Description de l\'image 2' },
+    { id: 1, src: biblio2, alt: 'Description de l\'image 1', description: 'Description de l\'image 1' },
+    { id: 2, src: biblio2, alt: 'Description de l\'image 2', description: 'Description de l\'image 2' },
   ];
 
   return (

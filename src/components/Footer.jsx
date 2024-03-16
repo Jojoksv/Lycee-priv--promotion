@@ -1,7 +1,7 @@
 
 import '../styles/Footer.css'
+import racc2 from '../assets/racc2.jpg'
 
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -26,9 +26,9 @@ function Footer(){
         <div className='footer'>
           <div className="row">
             <div className="col">
-              <img src={require('../assets/racc2.jpg')} className="loogo" alt="logo"/>
+              <img src={racc2} className="loogo" alt="logo"/>
               <p>jh vjcu bsvhkicbqkUZFcsQVfuzevhb  vevibs vesbvuirsz vberbrs vdbiuidkrs
-                nkseb vf sebiurfiub tesbe rebuivebf sosz uotr zbfuoekue gjuibg'e
+                nkseb vf sebiurfiub tesbe rebuivebf sosz uotr zbfuoekue gjuibg&apos;e
                 ui eirbfki etg
               </p>
             </div>

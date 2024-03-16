@@ -4,6 +4,12 @@ import '../styles/Reseaux.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
+import atrium from '../assets/atrium.png'
+import pronote from '../assets/pronote.png'
+import turboself from '../assets/turboself.png'
+import educonnect from '../assets/educonnect.png'
+import parcoursup from '../assets/parcoursup.png'
+import onisep from '../assets/onisep.png'
 
 
 function Reseaux(){
@@ -16,27 +22,27 @@ function Reseaux(){
                 </div>
                 <div className='svg'>
                         <div className='divS'>
-                            <img src={require('../assets/atrium.png')} alt=''/>
+                            <img src={atrium} alt=''/>
                             <span>ENT_ATRIUM</span>
                         </div>
                         <div className='divS'>
-                            <img src={require('../assets/pronote.png')} alt=''/>
+                            <img src={pronote} alt=''/>
                             <span>PROMOTE</span>
                         </div>
                         <div className='divS'>
-                            <img src={require('../assets/turboself.png')} alt=''/>
+                            <img src={turboself} alt=''/>
                             <span>TURBOSELF</span>
                         </div>
                         <div className='divS'>
-                            <img src={require('../assets/educonnect.png')} alt=''/>
+                            <img src={educonnect} alt=''/>
                             <span>EDUCONNECT</span>
                         </div>
                         <div className='divS'>
-                            <img src={require('../assets/parcoursup.png')} alt=''/>
+                            <img src={parcoursup} alt=''/>
                             <span>PARCOURSUP</span>
                         </div>
                         <div className='divS'>
-                            <img src={require('../assets/onisep.png')} alt=''/>
+                            <img src={onisep} alt=''/>
                             <span>ONISEP</span>
                         </div>
                     </div>

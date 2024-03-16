@@ -2,6 +2,7 @@
 import '../styles/Orientation.css'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components';
+import homme from '../assets/homme.png'
 
 
 
@@ -16,17 +17,17 @@ const StyledLink = styled(Link)`
 
 function Orientation(){
     return(
-    <div class="thecontainer">
+    <div className="thecontainer">
         <div className='EnteteContente'>
         <div className='reevenir'><StyledLink to='/'>Revenir à l'accueil</StyledLink></div>
         <h1>Conseiller d'Orientation Psychologique</h1>
-        <div class="profile">
-            <div class="profile-img">
-                <img src={require("../assets/homme.png")} alt="Nom du conseiller" />
+        <div className="profile">
+            <div className="profile-img">
+                <img src={homme} alt="Nom du conseiller" />
             </div>
-            <div class="profile-info">
-                <div class="profile-name">KOSSOUVI KOFFI</div>
-                <div class="profile-contact">
+            <div className="profile-info">
+                <div className="profile-name">KOSSOUVI KOFFI</div>
+                <div className="profile-contact">
                     <p>Numéro de téléphone : <Link href='sms:76626404?body=thank you'>+226 76 62 64 04</Link></p>
                     <p>Email : <Link href="mailto:kossouvikoffi@gmail.com">kossouvikoffi@gmail.com</Link></p>
                 </div>
@@ -36,7 +37,7 @@ function Orientation(){
 
         <h2>Méthodes d'Orientation Psychologique</h2>
         <div className='method-list'>
-        <ul class="methods">
+        <ul className="methods">
             <li>Évaluation des aptitudes et des intérêts : Aider les élèves à découvrir leurs aptitudes et leurs intérêts pour les orienter vers des carrières qui leur conviennent.</li>
             <li>Conseil en matière de choix de matières : Fournir des conseils sur les matières à choisir pour atteindre les objectifs académiques et professionnels des élèves.</li>
             <li>Orientation professionnelle : Aider les élèves à explorer différentes carrières, secteurs d'activité et options de formation postsecondaire.</li>

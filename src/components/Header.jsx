@@ -1,19 +1,19 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import {AnnonceList} from '../datas/AnnonceList';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 import '../styles/Header.css';
+import carou1 from '../assets/promotion4.jpg'
+import carou2 from '../assets/promotion5.jpg'
+import carou3 from '../assets/promotion3.jpg'
 
 const StyledLink = styled(Link)`
     text-decoration: none;
 `;
 
 function Header() {
-    const carou1 = require('../assets/promotion4.jpg');
-    const carou2 = require('../assets/promotion5.jpg');
-    const carou3 = require('../assets/promotion3.jpg');
 
     return (
         <header id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">

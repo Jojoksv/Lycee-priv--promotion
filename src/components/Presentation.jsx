@@ -2,7 +2,12 @@
 
 import '../styles/Presentation.css'
 import { Link } from 'react-router-dom'
-// import Footer from './Footer'
+import racc3 from '../assets/racc3.jpg'
+import racc5 from '../assets/racc5.jpg'
+import racc6 from '../assets/racc6.jpg'
+import racc2 from '../assets/racc2.jpg'
+import racc8 from '../assets/racc8.jpg'
+import racc9 from '../assets/racc9.jpg'
 
 
 function Presentation(){
@@ -10,12 +15,12 @@ function Presentation(){
         <div className="AllOne">
             <section className="essenciel">
                 <span>Découvrez</span>
-                <h1>L'Essenciel</h1>
+                <h1>L&apos;Essenciel</h1>
             </section>
         <div className="ForAll">
             <div className="first">
                 <div className="second">
-                    <img src={require('../assets/racc3.jpg')} className="third"/>
+                    <img src={racc3} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
                             <Link to=''>Présentation</Link>
@@ -27,7 +32,7 @@ function Presentation(){
 
             <div className="first">
                 <div className="second">
-                    <img src={require('../assets/racc5.jpg')} className="third"/>
+                    <img src={racc5} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
                             <Link to=''>Résultats</Link>
@@ -39,7 +44,7 @@ function Presentation(){
 
             <div className="first">
                 <div className="second">
-                    <img src={require('../assets/racc6.jpg')} className="third"/>
+                    <img src={racc6} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
                             <Link to=''>Inscription</Link>
@@ -51,7 +56,7 @@ function Presentation(){
 
             <div className="first">
                 <div className="second">
-                    <img src={require('../assets/racc2.jpg')} className="third"/>
+                    <img src={racc2} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
                             <Link to=''>Notre Blog</Link>
@@ -63,7 +68,7 @@ function Presentation(){
 
             <div className="first">
                 <div className="second">
-                    <img src={require('../assets/racc8.jpg')} className="third"/>
+                    <img src={racc8} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
                             <Link to=''>Ecole Directe</Link>
@@ -75,7 +80,7 @@ function Presentation(){
 
             <div className="first">
                 <div className="second">
-                    <img src={require('../assets/racc9.jpg')} className="third"/>
+                    <img src={racc9} className="third"/>
                     <div className="third1">
                         <h5 className="fourth">
                             <Link to=''>Portail du CDI</Link>
@@ -86,10 +91,7 @@ function Presentation(){
             </div>
             
         
-        </div>
-        {/* <div className="division"></div>
-        <Footer /> */}
-        </div>
+        </div></div>
     )
 }
 export default Presentation
