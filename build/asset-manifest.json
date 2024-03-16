@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ceec3a23.css",
-    "main.js": "/static/js/main.056b030b.js",
+    "main.js": "/static/js/main.dd76efbc.js",
     "static/media/promotion3.jpg": "/static/media/promotion3.310449d6be64ffda6c40.jpg",
     "static/media/orienter.jpg": "/static/media/orienter.ce8bf93bbb89eabbce00.jpg",
     "static/media/promotion5.jpg": "/static/media/promotion5.83eaae9ee2be038acbd8.jpg",
@@ -18,10 +18,10 @@
     "static/media/file.jpg": "/static/media/file.c711b1b6d90b191974d8.jpg",
     "index.html": "/index.html",
     "main.ceec3a23.css.map": "/static/css/main.ceec3a23.css.map",
-    "main.056b030b.js.map": "/static/js/main.056b030b.js.map"
+    "main.dd76efbc.js.map": "/static/js/main.dd76efbc.js.map"
   },
   "entrypoints": [
     "static/css/main.ceec3a23.css",
-    "static/js/main.056b030b.js"
+    "static/js/main.dd76efbc.js"
   ]
 }

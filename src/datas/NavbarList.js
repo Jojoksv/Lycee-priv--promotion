@@ -3,27 +3,23 @@
 export const NavBarList = [
     
     {
-        name:'Accueil',
-        link: '/'
+        name:"Accueil",
+        link: "/"
     },
     {
         name:"l'Etablissement",
-        link: 'Orientater'
+        link: "Orientater"
     },
     {
-        name:'scolarité',
-        link: '/scolarité'
+        name:"scolarité",
+        link: "Scolarite"
     },
     {
-        name:'orientation',
-        link: 'Etablissement'
+        name:"orientation",
+        link: "Etablissement"
     },
     {
-        name:'Directeur',
-        link: 'Examens'
-    },
-    // {
-    //     name:'pedagogie',
-    //     link: 'Pedagogie'
-    // }
+        name:"Directeur",
+        link: "Examens"
+    }
 ]
