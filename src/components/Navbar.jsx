@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 function Navbar(){
     return(
         <nav className='lmj-banner'>
-            <Link to='/' className='logo fold'>Lycée Privé Promotion</Link>
+            <Link to='/' className='logo fold'>LYCEE PRIVEE PROMOTION</Link>
             <div className='nav-links'>
                 <ul>
                     {NavBarList.map((list, index) => (

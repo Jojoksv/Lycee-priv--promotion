@@ -2,36 +2,6 @@
 body{
     font-family:'raleway', sans-serif;
 }
-/* 
-.lmj-logo {
-	width: 90px;
-}
-
-.nom-logo {
-	width: 75%;
-}
-
-.menu{
-    font-family: 'Open Sans';
-    position: relative;
-    margin: 0 10px;
-    text-decoration: 0;
-    color: #000000;
-    transition: 0.5s;
-}
-.menu :before {
-    position:absolute;
-    top: -2px;
-    width: 100%;
-    height: 2px;
-    background-color: #93d6d0;
-    transition: 0.5px;
-}
-
-.menu:hover{
-    border-top: 5px solid rgb(68, 138, 204);
-    background-color: rgba(64, 161, 200, 0.15);  
-} */
 
 .menu{
     font-family: 'raleway', sans-serif;
@@ -149,7 +119,7 @@ body{
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 10px;
-        color: rgb(0, 0, 0);
+        color: #fff;
         font-size: 1.5em;
     }
     
@@ -173,7 +143,6 @@ body{
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 10px;
-        color: rgb(0, 0, 0);
         font-size: 1.8em;
     }
 
@@ -192,7 +161,6 @@ body{
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 10px;
-        color: rgb(0, 0, 0);
         font-size: 1.8em;
     }
 
