@@ -12,6 +12,8 @@ import Etablissement from './components/Etablissement.jsx';
 import Orientater from './components/Orientater.jsx';
 import Examens from './components/Examens.jsx';
 import Scolarite from './components/Scolarite.jsx'
+import Footer from './components/Footer.jsx'
+import NavBar from './components/Navbar.jsx'
 import { AnnonceList } from './datas/AnnonceList.js';
 
 
@@ -22,6 +24,7 @@ const mesVariable ={Guide, Orientation, Regle, Ressources, Calendrier, Etablisse
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
+      <NavBar />
       <Routes>
         <Route path="/" exact element={<App />} />
             {AnnonceList.map((list) => {
@@ -37,6 +40,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Route path="/Examens" element={<Examens />} />
     <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>,
 )

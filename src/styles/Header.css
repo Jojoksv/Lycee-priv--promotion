@@ -16,13 +16,11 @@ body{
 header{
     height: auto;
     width: 100vw;
-    /* background-image: url(../assets/school2.jpg); */
     background-size: cover;
 }
 
 .c-item {
     height: 570px;
-    /* filter: blur(1.5px) brightness(65%); */
 
     & .active{
       height: 100%;
@@ -85,9 +83,11 @@ header{
   }
 
   .complete h6{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
     margin-left: 600px;
-    color: #ffffff;
-    width: 600px;
+    color: #fff;
     font-size: 37px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
@@ -97,7 +97,6 @@ header{
     margin-left: 550px;
     display: flex;
     gap: 50px;
-    padding-top: 30px;
   }
 
   .divP1{
@@ -261,7 +260,7 @@ header{
 
 @media screen and (max-width: 500px){
   .complete{
-    font-size: 0.85em;
+    font-size: 0.75em;
   }
 }
 
