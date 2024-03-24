@@ -107,3 +107,14 @@
     }
     
 }
+@media screen and (max-width: 650px) {
+    .GuideClass .mainContent{
+        padding-top: 150px;
+    }
+    .GuideClass main {
+        grid-template-columns: 100%;
+    }
+    .GuideClass section {
+        width: 90%;
+    }
+}
