@@ -96,3 +96,16 @@
     background-color: #f0f0f0;
     padding: 10px;
 }
+
+@media screen and (max-width: 926px) {
+    nav{
+        display: none;
+    }
+    .GuideClass main {
+        margin-left: 0;
+    }
+    .GuideClass footer{
+        margin-left: 0;
+    }
+    
+}

@@ -6,6 +6,7 @@ import FocusOn from './FocusOn';
 import Agenda from './Agenda';
 import Reseaux from './Reseaux';
 import Presentation from './Presentation';
+import Footer from './Footer.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Agenda />
       <Reseaux />
       <Presentation />
+      <Footer />
     </div>
   );
 }

@@ -4,6 +4,7 @@
     right: 10px;
     background-color: #3b3b3b;
     border-radius: 10px;
+    top: 0;
 }
 
 .thecontainer {
@@ -71,9 +72,12 @@
 
 .methods {
     list-style-type: decimal;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     font-size: 16px;
     font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .methods li {
@@ -81,12 +85,13 @@
     border: 1px solid #000000; /* Bordure */
     padding: 10px;
     margin: 5px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Effet de profondeur */
-    width: calc(25% - 20px); /* 4 éléments par ligne */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
     float: left;
     clear: none;
     border-radius: 20px;
     height: 200px;
+    width: 24%;
     align-items: center;
     color: #ffffff;
 }
@@ -95,5 +100,45 @@
 .methods li:hover {
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1100px) {
+    .methods li{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .methods li{
+        width: 45%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .methods li{
+        height: auto;
+        padding: 20px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .methods li{
+        font-size: 13px;
+    }
+    .thecontainer .profile-name {
+        font-size: 30px;
+        text-wrap: nowrap;
+    }
+    .thecontainer h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .methods li{
+        width: 90%;
+        font-size: 12px;
+    }
+    .thecontainer .profile-name {
+        font-size: 25px;
+    }
 }
 

@@ -12,7 +12,6 @@ import Etablissement from './components/Etablissement.jsx';
 import Orientater from './components/Orientater.jsx';
 import Examens from './components/Examens.jsx';
 import Scolarite from './components/Scolarite.jsx'
-import Footer from './components/Footer.jsx'
 import { AnnonceList } from './datas/AnnonceList.js';
 
 
@@ -38,7 +37,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Route path="/Examens" element={<Examens />} />
     <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <Footer />
     </Router>
   </React.StrictMode>,
 )
