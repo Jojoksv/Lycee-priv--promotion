@@ -107,7 +107,7 @@
     }
     
 }
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
     .GuideClass .mainContent{
         padding-top: 150px;
     }
@@ -117,4 +117,4 @@
     .GuideClass section {
         width: 90%;
     }
-}
+} */
