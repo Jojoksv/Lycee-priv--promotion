@@ -21,7 +21,7 @@ function Ressources(){
                     <StyledLink to='/'>Revenir à l'accueil</StyledLink>
                 </div>
             </div>
-    <ul class="resource-list">
+    <ul className="resource-list">
         <li>
             <h2><Link to="https://www.example1.com">Plateforme d'apprentissage 1</Link></h2>
             <p>Description : Une plateforme en ligne offrant des cours interactifs et des devoirs pour les élèves.</p>

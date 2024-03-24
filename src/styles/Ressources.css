@@ -49,22 +49,11 @@ body {
     box-sizing: border-box;
     box-shadow: 16px 14px 20px #000000;
     border-radius: 10px;
-    /* display: flex; */
     position: relative;
     overflow: hidden;
     align-items: center;
     justify-content: center;
 }
-
-/* .resource-list li:before {
-    content: "";
-    background-image: conic-gradient(#ff0052 20deg, transparent 120deg);
-    width: 150%;
-    height: 150%;
-    position: absolute;
-    animation: rotate 2s linear infinite;
-} */
-
 .resource-list h2 {
     font-size: 1.2em;
     margin-top: 0;
@@ -82,4 +71,15 @@ body {
 
 .resource-list a:hover {
     color: #004a80;
+}
+
+@media screen and (max-width: 700px) {
+    .resource-list li {
+        flex: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .resource-list li {
+        flex: 50%;
+    }
 }

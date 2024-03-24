@@ -63,10 +63,8 @@
     display: block;
     border-radius: 20px;
 }
-/* Style de la grille pour les sections */
 
 .scrollpart{
-    max-height: 510px;
     overflow-y: auto;
     scrollbar-width: none;
 }
